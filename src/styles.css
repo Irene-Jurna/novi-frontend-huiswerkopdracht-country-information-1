@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+h1 {
+    font-family: 'Chewy', cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+#list-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #84ACCE;
+    margin: 20px;
+    align-content: flex-start;
+    /*max-height: 2500px;*/
+}
+
+#countries, #continents {
+    flex: 1 1 1;
+}
+
+.countries-list {
+    margin-bottom: 15px;
+}
+
+.world-map {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.continent-list-asia {
+    color: #B23A48;
+}
+
+.continent-list-africa {
+    color: #29335C;
+}
+
+.continent-list-americas {
+    color: #1B998B;
+}
+
+.continent-list-europe {
+    color: #F3A712;
+}
+
+.continent-list-oceania {
+    color: #8D86C9;
+}
+
+.continent-list-default {
+    color: #CEBBC9;
+}
