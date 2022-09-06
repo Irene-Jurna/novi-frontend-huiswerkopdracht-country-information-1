@@ -61,3 +61,29 @@ ul {
 .continent-list-default {
     color: #CEBBC9;
 }
+
+.page-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.globe-image {
+    padding-bottom: 25px;
+}
+
+.search-input-field {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+.submit-button {
+    margin: 0px;
+    background-color: #3DDC97;
+    border-color: #3DDC97;
+    border-radius: 15%;
+    padding: 8px 10px;
+    font-size: 14px;
+    box-shadow: none;
+}
